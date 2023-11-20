@@ -49,7 +49,7 @@ tm_shape(OA.Census) + tm_borders() +
 # interactive maps in tmap
 library(leaflet)
 
-# turns view map on
+# turns view map on - turn off with tmap_mode("plot")
 tmap_mode("view")
 
 #house price data
